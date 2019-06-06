@@ -7,7 +7,8 @@ const sentences = [
 // es6 feature: objecy destructuring
 function say({ subject, verb, object}) {
     // es6 feature: template strings
-    console.log('${subject} ${verb} ${object}' );
+    //console.log({subject, verb, object});
+    console.log(subject, verb, object);
 }
 // es6 feature: for..of
 for(let s of sentences) {

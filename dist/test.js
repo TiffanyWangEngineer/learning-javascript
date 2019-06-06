@@ -16,7 +16,8 @@ function say({
   object
 }) {
   // es6 feature: template strings
-  console.log('${subject} ${verb} ${object}');
+  //console.log({subject, verb, object});
+  console.log(subject, verb, object);
 } // es6 feature: for..of
 
 

@@ -3,11 +3,11 @@
 const sentences = [{
   subject: 'Public',
   verb: 'is',
-  object: 'normal'
+  object: 'common'
 }, {
-  subject: 'Ants',
-  verb: 'are',
-  object: 'cool'
+  subject: 'Client side',
+  verb: 'is',
+  object: 'here'
 }]; // es6 feature: objecy destructuring
 
 function say({
@@ -16,7 +16,8 @@ function say({
   object
 }) {
   // es6 feature: template strings
-  console.log('${subject} ${verb} ${object}');
+  //console.log({subject, verb, object});
+  console.log(subject, verb, object);
 } // es6 feature: for..of
 
 
